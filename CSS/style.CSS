@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Prompt, Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../images/TV\ -\ 1Tela.png);
+    background-repeat: no-repeat;
+
+}
+
+.container-background{
+    /* background-image: url('../images/TV\ -\ 1Tela.png');
+    background-repeat: no-repeat;
+    background-size:100%; */
+    overflow: riden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    text-align: center;  
+}
+
+.container-img{
+    width: 100%;
+    height: 220px;
+    background-image: url(../images/Increased-revenue-.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+}
+
+.tela-login{
+    height: 120px;
+    background-size: 100px 100px;
+}
+
+h1{
+    color: #003C5F;
+    font-size: 90px;
+    font-weight: 600;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(247, 245, 230, 0.3);
+}
+
+.login, .t-cadastro{
+    font-size: 70px;
+}
+
+.entrar{
+    padding: 10px 200px;
+    color: #F7F5E6;
+    background-color: rgb(0, 60, 95);
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.cadastro{
+        padding: 20px 100px;
+        color: #F7F5E6;
+        background-color: rgb(0, 60, 95, 0.7);
+        font-size: 20px;
+        border-radius: 15px;
+}
+
+.ajuda{
+    font-size: 17px;
+    color: rgb(0, 60, 95);
+
+
+}
+
+.container{
+    text-align: left;
+}
+
+form{
+    margin: auto;
+    width: 60%;
+}
+
+
+.form-label{
+    color: #003c5f;
+    font-size: 1.8em;
+    font-weight: 600;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(247, 245, 230, 0.4);
+}
+
+.form-control{
+    background-color: #F7F5E6;
+    width: 100%;
+}
+
+p{
+    color: #191c38;
+}
+
+a{
+    color: #F7F5E6;
+    text-decoration: none;
+}
+
+.btn-login{
+    padding: 10px 30%;
+    color: #F7F5E6;
+    background-color: rgb(0, 60, 95);
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.btn-cadastro{
+    padding: 10px 25%;
+    color: #F7F5E6;
+    background-color: rgb(0, 60, 95);
+    font-size: 25px;
+    border-radius: 15px;
+}
